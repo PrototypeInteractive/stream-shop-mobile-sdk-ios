@@ -1,0 +1,4 @@
+framework module FluxMobileStaging {
+  header "FluxMobileStaging-Swift.h"
+  requires objc
+}

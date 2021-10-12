@@ -1,0 +1,47 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 effective-4.1.50 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name FluxMobileStaging
+import Foundation
+import Swift
+import WebKit
+import _Concurrency
+extension WebKit.WKWebViewConfiguration {
+  @objc convenience dynamic public init(withJavaScriptEnabled javaScriptEnabled: Swift.Bool, javaScriptCanOpenWindowsAutomatically: Swift.Bool)
+}
+public protocol FluxMobileSDKListener : FluxMobileStaging.FluxMobileSDKActionListener, FluxMobileStaging.FluxMobileSDKCheckoutListener, FluxMobileStaging.FluxMobileSDKClearCartListener, FluxMobileStaging.FluxMobileSDKEventListener, FluxMobileStaging.FluxMobileSDKSessionListener {
+}
+public protocol FluxMobileSDKSessionListener : AnyObject {
+  func onGetSessions(data: [Swift.String : Any])
+}
+public protocol FluxMobileSDKClearCartListener : AnyObject {
+  func onClearShoppingCart()
+}
+public protocol FluxMobileSDKCheckoutListener : AnyObject {
+  func onCheckout(data: [Swift.String : Any])
+}
+public protocol FluxMobileSDKEventListener : AnyObject {
+  func onEvent(data: [Swift.String : Any])
+}
+public protocol FluxMobileSDKActionListener : AnyObject {
+  func onClose()
+  func onMinimize()
+  func onMaximize()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FluxMobileSDK : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
+  public static let shared: FluxMobileStaging.FluxMobileSDK
+  public var listener: FluxMobileStaging.FluxMobileSDKListener?
+  weak public var actionListener: FluxMobileStaging.FluxMobileSDKActionListener?
+  public var sessionListener: FluxMobileStaging.FluxMobileSDKSessionListener?
+  public var cartListener: FluxMobileStaging.FluxMobileSDKClearCartListener?
+  public var checkoutListener: FluxMobileStaging.FluxMobileSDKCheckoutListener?
+  public var eventListener: FluxMobileStaging.FluxMobileSDKEventListener?
+  public func initialize(domain: Swift.String = "", channelId: Swift.String, apiKey: Swift.String, userName: Swift.String = "")
+  public func open(sessionId: Swift.String)
+  public func open(sessionId: Swift.String, timeIndex: Swift.String)
+  public func close()
+  public func minimize()
+  public func maximize()
+  public func clearShoppingCart()
+  public func getSessions()
+  @objc deinit
+}
