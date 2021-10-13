@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/FluxMobileStaging-Swift.h</key>
 		<data>
-		XlgtJJzhw/vopzWXF98fMYvmzQI=
+		d92U0B3D2L5CliiJcfDnfPQBdDc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/FluxMobileStaging.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BsbrzBU26nbn2/7AMYgLRtMGyCU=
+		jVwl4vSPTH4/gbUuY2sGN3TD0ZA=
 		</data>
 		<key>Modules/FluxMobileStaging.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/FluxMobileStaging.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		BsbrzBU26nbn2/7AMYgLRtMGyCU=
+		jVwl4vSPTH4/gbUuY2sGN3TD0ZA=
 		</data>
 		<key>Modules/FluxMobileStaging.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FluxMobileStaging.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uD3Q2XRkSCpbjZWo5T344ZUYvQE=
+		WJ0R4WwZVVwgNtHw2DmzUQN1YoM=
 		</data>
 		<key>Modules/FluxMobileStaging.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/FluxMobileStaging.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		uD3Q2XRkSCpbjZWo5T344ZUYvQE=
+		WJ0R4WwZVVwgNtHw2DmzUQN1YoM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vjidy3Lpqp64V1io14NWrddrbXRtm3x6KbllkByECeg=
+			vuNDrLWsiDi1wxVgSc1WJFoE9+l2ntCu1axhowjnsf8=
 			</data>
 		</dict>
 		<key>Modules/FluxMobileStaging.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			STHnlR2kJe7CTxQPY1zicFB2BIEJQcs0mMk5Vc11H6Y=
+			JqiH8YK7GRMmHAommEIHAl9kmPLDxwLosIE8TrJux2s=
 			</data>
 		</dict>
 		<key>Modules/FluxMobileStaging.swiftmodule/arm64.swiftdoc</key>
@@ -124,7 +124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			STHnlR2kJe7CTxQPY1zicFB2BIEJQcs0mMk5Vc11H6Y=
+			JqiH8YK7GRMmHAommEIHAl9kmPLDxwLosIE8TrJux2s=
 			</data>
 		</dict>
 		<key>Modules/FluxMobileStaging.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -145,7 +145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BKJshIMVct3Nar9zso6WmMUj0B2gZ9UrDJMOTNZOpZ0=
+			AM+hs0H0ivW4ud+nuOZPpSZoNmI9rgWaRH02f542w+I=
 			</data>
 		</dict>
 		<key>Modules/FluxMobileStaging.swiftmodule/x86_64.swiftdoc</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BKJshIMVct3Nar9zso6WmMUj0B2gZ9UrDJMOTNZOpZ0=
+			AM+hs0H0ivW4ud+nuOZPpSZoNmI9rgWaRH02f542w+I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

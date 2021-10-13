@@ -216,6 +216,8 @@ SWIFT_CLASS("_TtC17FluxMobileStaging13FluxMobileSDK")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+
+
 @class NSNumber;
 
 @interface WKWebViewConfiguration (SWIFT_EXTENSION(FluxMobileStaging))
@@ -444,6 +446,8 @@ SWIFT_CLASS("_TtC17FluxMobileStaging13FluxMobileSDK")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
+
+
 
 @class NSNumber;
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FluxMobileStaging"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "To integrate the Flux Panda player to your application."
 
   # This description is used to generate tags and improve search results.
