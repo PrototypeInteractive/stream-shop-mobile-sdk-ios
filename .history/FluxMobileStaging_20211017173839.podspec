@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "FluxMobileStaging"
   spec.version      = "0.2.0"
-  spec.summary      = "Integrate FluxPanda into your mobile app"
+  spec.summary      = "To integrate the Flux Panda player to your application."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  More details at https://www.fluxpanda.com
+  FPSdk is created to integrate the Flux Panda player to your application.
                    DESC
 
   spec.homepage     = "https://github.com/PrototypeInteractive/stream-shop-mobile-sdk-ios"
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.license      = "MIT (example)"
-  spec.license      = { :type => "All rights reserved", :file => "LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Flux Panda Inc." => "support@fluxpanda.com" }
+  spec.author             = { "Amir A" => "amir@prototype.net" }
+  # Or just: spec.author    = "Shahbaz Sajjad"
+  # spec.authors            = { "Shahbaz Sajjad" => "shahbaz.sajjad@gmail.com" }
+  # spec.social_media_url   = "https://twitter.com/Shahbaz Sajjad"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

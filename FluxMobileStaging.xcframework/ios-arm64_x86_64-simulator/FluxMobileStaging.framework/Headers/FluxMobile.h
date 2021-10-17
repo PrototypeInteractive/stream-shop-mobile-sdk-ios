@@ -1,10 +1,3 @@
-//
-//  FluxMobile.h
-//  FluxMobile
-//
-//  Created by Shahbaz Sajjad on 09/10/2021.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for FluxMobile.

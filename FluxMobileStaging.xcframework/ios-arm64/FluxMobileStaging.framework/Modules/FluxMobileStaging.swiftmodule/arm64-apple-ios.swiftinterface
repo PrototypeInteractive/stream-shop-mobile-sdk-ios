@@ -29,13 +29,16 @@ public protocol FluxMobileSDKActionListener : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FluxMobileSDK : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
   public static let shared: FluxMobileStaging.FluxMobileSDK
+  public var isSDKInitialized: Swift.Bool {
+    get
+  }
   public var listener: FluxMobileStaging.FluxMobileSDKListener?
   weak public var actionListener: FluxMobileStaging.FluxMobileSDKActionListener?
   public var sessionListener: FluxMobileStaging.FluxMobileSDKSessionListener?
   public var cartListener: FluxMobileStaging.FluxMobileSDKClearCartListener?
   public var checkoutListener: FluxMobileStaging.FluxMobileSDKCheckoutListener?
   public var eventListener: FluxMobileStaging.FluxMobileSDKEventListener?
-  public func initialize(domain: Swift.String = "", channelId: Swift.String, apiKey: Swift.String, userName: Swift.String = "")
+  public func initialize(domain: Swift.String = "", channelId: Swift.String, apiKey: Swift.String, userName: Swift.String = "", handler: @escaping (Swift.Bool) -> Swift.Void)
   public func open(sessionId: Swift.String)
   public func open(sessionId: Swift.String, timeIndex: Swift.String)
   public func close()
@@ -43,5 +46,6 @@ public protocol FluxMobileSDKActionListener : AnyObject {
   public func maximize()
   public func clearShoppingCart()
   public func getSessions()
+  public func onInitialize()
   @objc deinit
 }
